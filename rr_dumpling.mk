@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dumpling device
 $(call inherit-product, device/oneplus/dumpling/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common RR stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
-PRODUCT_NAME := rr_dumpling
+PRODUCT_NAME := lineage_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -38,8 +38,9 @@ TARGET_VENDOR_DEVICE_NAME := OnePlus5T
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=OnePlus5T PRODUCT_NAME=OnePlus5T
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="OnePlus5T-user 8.1.0 OPM1.171019.011 1808081927 release-keys"
 
-BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:8.1.0/OPM1.171019.011/1808081927:user/release-keys
+    PRIVATE_BUILD_DESC="OnePlus5T-user 9 PKQ1.180716.001 1901182129 release-keys"
+
+BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:9/PKQ1.180716.001/1901182129:user/release-keys
 
 TARGET_VENDOR := oneplus
