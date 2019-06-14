@@ -35,7 +35,7 @@ TARGET_OTA_ASSERT_DEVICE := dumpling,OnePlus5T,oneplus5t
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Vendor Security Patch Level
-VENDOR_SECURITY_PATCH := 2019-04-01
+VENDOR_SECURITY_PATCH := 2018-06-05
 
 # inherit from the proprietary version
 -include vendor/oneplus/dumpling/BoardConfigVendor.mk
